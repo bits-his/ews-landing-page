@@ -6,10 +6,14 @@ import Pricing from './LandingPage/Pricing'
 import './Styles/AppStyles.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import CountactUs from './CountactUs'
+import Navbar from './Navbar'
+import HeroSection from './HeroSection'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Navbar />
+    <HeroSection />
     <Pricing />
-    <hr/>
+    <hr />
     <CountactUs />
   </React.StrictMode>,
 )
