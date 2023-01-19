@@ -1,15 +1,14 @@
 import React from "react";
 import {
   Button,
-  Card,
-  CardBody,
+//   Card,
+//   CardBody,
   Col,
-  Container,
+//   Container,
   Input,
   Label,
   Row,
 } from "reactstrap";
-// import cout4 from "./cout4.jpg";
 export default function CountactUs() {
   return (
     <div className="mt-5 shadow p-3">
@@ -26,13 +25,6 @@ export default function CountactUs() {
         </Button>
       </center>
       <Row>
-        {/* <Col md={6} className="mt-4">
-              <img
-                className="shadow"
-                src={cout4}
-                style={{ width: "33rem", borderRadius: "10px", height: "17rem" }}
-              />
-            </Col> */}
         <Col md={6}>
           <Col md={12}>
             <Label>Email</Label>
