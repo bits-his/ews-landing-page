@@ -25,7 +25,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="container p-5">
-          <a href="" className="btn" id="btn">
+          <a href="" className="primary_button" id="btn" style={{ borderRadius: '', textDecoration:'none' }}>
             Get Started
           </a>
         </div>

@@ -1,0 +1,69 @@
+body {
+  margin: auto;
+}
+.picture {
+  background-image: url("./Images/pexels-aldyan-fierra-6581701.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 15%;
+}
+.about-top {
+  background-color: #002147;
+  /* height: 600px; */
+  padding: 110px;
+}
+.p {
+  color: aliceblue;
+}
+.p-head {
+  font-size: 50px;
+  margin-bottom: 3rem;
+  color: #ffcd06;
+}
+.p-text {
+  font-size: 22px;
+}
+.button {
+  background-color: #ffcd06;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  color: #002147;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-second {
+  margin-top: 10rem;
+}
+.card {
+  background-color: #f4f4f4;
+  border: none;
+}
+.card-title {
+  font-size: 27px;
+  color: #33475b;
+}
+.p-head1 {
+  font-size: 38px;
+  margin-bottom: 1rem;
+}
+.photo {
+  background-image: url("./Images/pexels-anna-shvets-5029775.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 15%;
+}
+.line {
+  border: 3px solid #ffcd06;
+  width: 50%;
+}
+.span {
+  margin-right: 1rem;
+}
+
