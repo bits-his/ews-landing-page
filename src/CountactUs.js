@@ -12,9 +12,7 @@ import {
 // import cout4 from "./cout4.jpg";
 export default function CountactUs() {
   return (
-    <div>
-      <Container className="mt-5 shadow p-3">
-        {/* <Card> */}
+    <div className="mt-5 shadow p-3">
         <center>
           <Button
             className="shadow"
@@ -55,9 +53,6 @@ export default function CountactUs() {
               </center>
             </Col>
           </Row>
-        {/* </CardBody> */}
-        {/* </Card> */}
-      </Container>
     </div>
   );
 }
