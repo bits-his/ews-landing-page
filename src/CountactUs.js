@@ -13,7 +13,7 @@ import {
 export default function CountactUs() {
   return (
     <div>
-      <Container className="mt-5 shadow">
+      <Container className="mt-5 shadow p-3">
         {/* <Card> */}
         <center>
           <Button
@@ -27,7 +27,7 @@ export default function CountactUs() {
             CountactUs
           </Button>
         </center>
-        <CardBody>
+        {/* <CardBody> */}
           <Row>
             {/* <Col md={6} className="mt-4">
               <img
@@ -55,7 +55,7 @@ export default function CountactUs() {
               </center>
             </Col>
           </Row>
-        </CardBody>
+        {/* </CardBody> */}
         {/* </Card> */}
       </Container>
     </div>
