@@ -13,7 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <HeroSection />
     <Pricing />
-    <hr />
     <CountactUs />
   </React.StrictMode>,
 )

@@ -15,7 +15,7 @@
   border: none;
   border-radius: 25px;
   padding: 10px 30px;
-  outline: 1px solid var(--secondaryColor);
+  outline: 2px solid var(--secondaryColor);
   outline-offset: 3px;
   box-shadow: 0 8px 12px 0 var(--primaryColor);
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { secondaryColor } from './AppColors'
 import farm from './Images/farm.jpg'
 export default function HeroSection() {
   return (
@@ -12,7 +13,7 @@ export default function HeroSection() {
               </span>{' '}
               is a new developed program about farmers
             </h1>
-            <p>
+            <p style={{ color: secondaryColor }}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
               dolorem nesciunt facilis repellat tempore suscipit adipisci neque
               nisi, optio atque voluptate magni corporis ratione culpa magnam?
