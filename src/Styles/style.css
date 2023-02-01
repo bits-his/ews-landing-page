@@ -3,7 +3,7 @@ body{
     font-family: sans-serif;
 }
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 h1 > a{
     color: white;
@@ -55,7 +55,10 @@ span{
 #img{
     width: 100%;
     border-radius: 50% 0 50% 0;
-    margin-top: 30px;
+    /* border-radius: 20px; */
+    /* margin-top: 30px; */
+    /* outline: 2px solid #ffcd06;
+    outline-offset: 5px; */
 }
 #hero{
     padding-top: 10%;
@@ -86,5 +89,6 @@ p{
     padding: 15px 40px;
 }
 
-
-
+.slogan{
+    font-weight: bold;
+}

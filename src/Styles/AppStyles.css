@@ -6,7 +6,7 @@
 .main_heading {
   color: var(--primaryColor);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .primary_button {
@@ -24,8 +24,28 @@
   font-weight: bold;
 }
 
+.secondary_button {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  outline: 2px solid var(--secondaryColor);
+  outline-offset: 3px;
+  box-shadow: 0 8px 12px 0 var(--primaryColor);
+}
+.secondary_button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signin_button {
+  padding: 5px 15px !important;
+}
+
 .pricing_div {
   height: 100vh;
+  justify-content: center;
   display: flex;
   align-items: center;
 }
@@ -39,4 +59,54 @@
   background-size: cover;
   z-index: -1;
   backdrop-filter: var(--primaryColor);
+}
+
+.nav_row {
+  color: white;
+  background-color: var(--primaryColor);
+  height: 70px;
+}
+.nav_item_div {
+  text-align: center !important;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signin_in_div {
+  display: flex;
+  height: 70px;
+  /* justify-content: center; */
+  align-items: center;
+  float: right;
+}
+
+.nav_item:hover {
+  color: var(--secondaryColor);
+  cursor: pointer;
+}
+.footer_div {
+  background-color: var(--primaryColor);
+  color: white;
+  font-size: 12px;
+}
+
+.input_field {
+  border-radius: 25px;
+  border: 2px solid var(--secondaryColor);
+  color: white;
+  padding: 8px;
+  background-color: var(--primaryColor);
+  width: 100%;
+}
+.input_field:focus {
+  outline: none;
+}
+.input_field::placeholder {
+  color: white;
+}
+.contact_div {
+  background-color: var(--primaryColor);
 }

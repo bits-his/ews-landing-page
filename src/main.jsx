@@ -9,6 +9,7 @@ import CountactUs from './CountactUs'
 import Navbar from './Navbar'
 import HeroSection from './HeroSection'
 import About from './About'
+import Footer from './Footer'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <About/>
     <Pricing />
     <CountactUs />
+    {/* <Footer/> */}
   </React.StrictMode>,
 )

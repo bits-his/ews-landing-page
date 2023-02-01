@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Row,
   Col,
@@ -7,19 +7,18 @@ import {
   CardBody,
   CardTitle,
   CardText,
-} from "reactstrap";
-import "./About.css";
+} from 'reactstrap'
+import './About.css'
 // import image from "./assets/img/arm-wrestling.png";
-import image from "./Images/arm-wrestling.png"
+import image from './Images/arm-wrestling.png'
 // import scale from "./assets/img/balance-scale-right.png";
 import scale from './Images/balance-scale-right.png'
 export default function About() {
   return (
     <div className="mt-0">
       <div className="about-top">
-        <Row className='m-0'>
-          <Col md={1}></Col>
-          <Col md={5} className="p">
+        <Row className="m-0">
+          <Col md={6} className="p">
             <h2 className="p-head">About us</h2>
             <hr className="line" />
             <p className="p-text">
@@ -30,7 +29,7 @@ export default function About() {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <Button className="button">Learn more</Button>
+            <button className="secondary_button">Learn more</button>
           </Col>
           <Col md={6}>
             <div className="picture"></div>
@@ -52,14 +51,14 @@ export default function About() {
             <Card className="mb-5 p-4">
               <CardBody>
                 <CardTitle>
-                  {" "}
+                  {' '}
                   <span className="span">
                     <img src={image} width={35} />
                   </span>
                   Meeting of Great Minds
                 </CardTitle>
                 {/* <CardText> */}
-                  <p>
+                <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -67,16 +66,15 @@ export default function About() {
                   specimen book. It has survived not only five centuries, but
                   also the leap into electronic typesetting, remaining
                   essentially unchanged.
-
-                  </p>
+                </p>
                 {/* </CardText> */}
               </CardBody>
             </Card>
-              <p>fafasfd  </p>
+            <p>fafasfd </p>
             <Card className="mb-5 p-4 card ">
               <CardBody>
                 <CardTitle className="card-title">
-                  {" "}
+                  {' '}
                   <span className="span">
                     <img src={image} width={35} />
                   </span>
@@ -96,7 +94,7 @@ export default function About() {
             <Card className="mb-5 p-4 card">
               <CardBody>
                 <CardTitle className="card-title">
-                  {" "}
+                  {' '}
                   <span className="span">
                     <img src={image} width={35} />
                   </span>
@@ -117,7 +115,7 @@ export default function About() {
             <Card className="mb-5 p-4 card">
               <CardBody>
                 <CardTitle className="card-title">
-                  {" "}
+                  {' '}
                   <span className="span">
                     <img src={image} width={35} />
                   </span>
@@ -143,8 +141,8 @@ export default function About() {
           <Col md={6}>
             <div className="photo"></div>
           </Col>
-          <Col md={1}></Col>
-          <Col md={5} className="p">
+          {/* <Col md={1}></Col> */}
+          <Col md={6} className="p">
             <h2 className="p-head">Our success is measured by your success</h2>
             <hr className="line" />
             <p className="p-text">
@@ -158,7 +156,6 @@ export default function About() {
           </Col>
         </Row>
       </div>
-      
     </div>
-  );
+  )
 }

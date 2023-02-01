@@ -12,6 +12,7 @@ body {
 }
 .about-top {
   background-color: #002147;
+  /* height: 100vh; */
   /* height: 600px; */
   padding: 110px;
 }
@@ -20,11 +21,12 @@ body {
 }
 .p-head {
   font-size: 50px;
+  font-weight: bold;
   margin-bottom: 3rem;
   color: #ffcd06;
 }
 .p-text {
-  font-size: 22px;
+  font-size: 15px;
 }
 .button {
   background-color: #ffcd06;
@@ -48,6 +50,7 @@ body {
 }
 .p-head1 {
   font-size: 38px;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 .photo {

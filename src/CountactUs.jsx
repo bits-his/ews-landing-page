@@ -1,47 +1,38 @@
-import React from "react";
+import React from 'react'
 import {
   Button,
-//   Card,
-//   CardBody,
   Col,
-//   Container,
-  Input,
-  Label,
   Row,
-} from "reactstrap";
+} from 'reactstrap'
 export default function CountactUs() {
   return (
-    <div className="mt-5 shadow p-3">
-      <center>
-        <Button
-          className="shadow"
-          style={{
-            fontSize: "20",
-            backgroundColor: "#002045",
-            borderRadius: "5rem",
-          }}
-        >
-          Countact Us
-        </Button>
-      </center>
-      <Row>
+    <div className="contact_div">
+      <Row className="p-4 m-0">
         <Col md={6}>
-          <Col md={12}>
-            <Label>Email</Label>
-            <Input type="email" />
-          </Col>
-          <Col md={12}>
-            <Label>Messege</Label>
-            <Input type="textarea" />
-          </Col>
-          <center className="mt-3 color-primary">
-            <Button
-              className="shadow"
-              style={{ backgroundColor: "#002045", borderRadius: "5rem" }}
-            >
-              Submit
-            </Button>
-          </center>
+          <h2 className="p-head">Contact us</h2>
+        </Col>
+        <Col md={6}>
+          <Row>
+            <Col md={2}></Col>
+            <Col md={8}>
+              <div>
+                <input
+                  placeholder="Email"
+                  className="input_field mb-3"
+                  type="email"
+                />
+              </div>
+              <div>
+                <textarea
+                  placeholder="Write here"
+                  className="input_field mb-3"
+                  rows="10"
+                />
+              </div>
+              <button className="secondary_button">Send</button>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
         </Col>
       </Row>
     </div>
