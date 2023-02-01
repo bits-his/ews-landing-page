@@ -47,9 +47,10 @@ export default function Navbar() {
       <Row className="nav_row text-center m-0">
         <Col md={4}>
         <h1 className="logo">
-            <a href="">
+          Knowtify
+            {/* <a href="">
               Farm<span>N</span>ote
-            </a>
+            </a> */}
           </h1>
         </Col>
         <Col md={4} className="">
